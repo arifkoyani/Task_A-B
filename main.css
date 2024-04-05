@@ -11,7 +11,7 @@
 }
 body{
     scroll-behavior: smooth ;
-    background-color: orange;
+    background-color:orange;
     overflow-x: hidden;
 }
 
@@ -142,10 +142,13 @@ h1 {
     display: flex;
     flex-direction: column;
 }
+.father{
+    height: fit-content;
+}
 footer{
     margin-top: 80vh;
     width: 100vw;
-    height:100px;
+    padding: 20px;
     background-color: black;
     display: flex;
     font-weight:bolder;
